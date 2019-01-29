@@ -1,0 +1,893 @@
+/* Small Screen About Page */
+
+
+
+
+@media only screen and (max-width: 700px){
+	body{
+		background-color: #f8e7c6;
+	}
+
+	.img img{
+		padding: 1rem;
+		background-color: rgba(249,248,247, .5);
+		border-right: #f8e7c6 10px solid;
+	}
+
+	.content{
+		padding: 1rem;
+		background-color: rgba(249,248,247, .5);
+		border-right: #f8e7c6 10px solid;
+		border-left: #f8e7c6 10px solid;
+	}
+
+
+	.content h2{
+		font-family: raleway;
+		border-bottom: #6a0d37 3px solid;
+		margin-top: 1rem;
+	}
+
+	.content p{
+		font-family: raleway;
+		padding-bottom: 1rem;
+	}
+
+	.content-2{
+		padding: 1rem;
+		background-color: rgba(249,248,247, .5);
+		border-right: #f8e7c6 10px solid;
+		border-left: #f8e7c6 10px solid;
+	}
+
+	.content-2 p{
+		font-family: raleway;
+		padding-bottom: 1rem;
+		margin-top: 1rem;
+	}
+
+	footer p{
+		font-family: raleway;
+		text-align: center;
+		padding-top: 1.5rem;
+		font-size: .5rem;
+	}
+}
+
+
+
+
+/* Content for large screen About Page */
+
+
+
+
+body{
+	background-color: #f8e7c6;
+}
+
+main{
+	background-color: rgba(249,248,247, .5);
+	border-left: #f8e7c6 10px solid;
+	border-right: #f8e7c6 10px solid;
+}
+
+header img{
+	width: 600px;
+	height: 200px;
+}
+
+header{
+	background-color: rgba(249,248,247, .5);
+	border-top: #f8e7c6 10px solid;
+	border-left: #f8e7c6 10px solid;
+	border-right: #f8e7c6 10px solid;
+}
+
+nav{
+	background-color: rgba(249,248,247, .5);
+	color: #6a0d37;
+	border-left: #f8e7c6 10px solid;
+	border-right: #f8e7c6 10px solid;
+}
+
+nav .reservations{
+	padding: 1rem;
+	padding-right:1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+nav .reservations a{
+	font-family: Raleway;
+	color:#6a0d37;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+nav .reservations a:hover{
+	color: white;
+	background-color: #6a0d37;
+	font-family: Raleway;
+}
+
+nav .about{
+	padding: 1rem;
+	margin-left: 3rem;
+	margin-right: 2rem;
+}
+
+nav .about a{
+	font-family: Raleway;
+	color:#6a0d37;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+nav .about a:hover{
+	color: white;
+	background-color: #6a0d37;
+	font-family: Raleway;
+}
+
+nav .activities{
+	padding: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+nav .activities a{
+	font-family: Raleway;
+	color:#6a0d37;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+nav .activities a:hover{
+	color: white;
+	background-color: #6a0d37;
+	font-family: Raleway;
+}
+
+nav .dining{
+	padding: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+}
+
+nav .dining a{
+	font-family: Raleway;
+	color:#6a0d37;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+nav .dining a:hover{
+	color: white;
+	background-color: #6a0d37;
+	font-family: Raleway;
+}
+
+nav .contact{
+	padding: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+nav .contact a{
+	font-family: Raleway;
+	color:#6a0d37;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+nav .contact a:hover{
+	color: white;
+	background-color: #6a0d37;
+	font-family: Raleway;
+}
+
+.hero-1{
+	padding: 500px 0 0 0;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	background-image: url(../img/resort.jpg);
+}
+
+.hero-1 h2{
+	background-color: rgba(0,0,0, .5);
+	font-family: raleway;
+}
+
+.img img{
+	padding: 3rem;
+	background-color: rgba(249,248,247, .5);
+	border-left: #f8e7c6 10px solid;
+}
+
+.content{
+	padding: 3rem;
+	background-color: rgba(249,248,247, .5);
+	border-right: #f8e7c6 10px solid;
+}
+
+
+.content h2{
+	font-family: raleway;
+	border-bottom: #6a0d37 3px solid;
+	margin-top: 2.54rem;
+}
+
+.content p{
+	font-family: raleway;
+	padding-bottom: 5.4rem;
+}
+
+.content-2{
+	padding: 3rem;
+	background-color: rgba(249,248,247, .5);
+	border-right: #f8e7c6 10px solid;
+}
+
+.content-2 p{
+	font-family: raleway;
+	padding-bottom: 6.7rem;
+	margin-top: 7rem;
+}
+
+footer p{
+	font-family: raleway;
+	text-align: center;
+	padding-top: 1rem;
+}
+
+
+
+
+/* Small Page Content for Details Page */
+
+
+
+
+@media only screen and (max-width: 700px){
+	.pent h3{
+		font-family: raleway;
+		padding-left: 1rem;
+		padding-top: 1rem;
+		background-color:rgba(249,248,247,.5);
+		margin-bottom: 0;
+		border-left: #f8e7c6 10px solid;
+		border-right: #f8e7c6 10px solid;
+	}
+
+	.details{
+		border-right: #f8e7c6 10px solid;
+		background-color:rgba(249,248,247,.5);
+		padding-top:1rem;
+		padding-bottom: 1rem;
+	
+	}
+
+	.info{
+		font-family: raleway;
+		background-color:rgba(249,248,247,.5);
+		margin-top: 0;
+		padding-top:1rem;
+		padding-left: 1rem;
+		border-left: #f8e7c6 10px solid;
+	}
+
+	.info h4{
+		font-family: raleway;
+		background-color: #6a0d37;
+		color: white;
+		text-align: center;
+		margin-right: 1rem;
+		padding:1rem;
+	}
+}
+
+
+
+
+/* Large Page Content for Details Page */
+
+
+
+
+.hero-2{
+	font-size: 60px;
+	padding: 700px 0 0 0;
+	height: 600px;
+	padding: 20px 0 0 0;
+	background-size: cover;
+	color: #265B7F;
+	background-image: url(../img/living-room.jpg);
+}
+
+.hero-2 h2{
+	font-family: raleway;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	margin-top: 32rem;
+}
+
+.pent h3{
+	font-family: raleway;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	background-color:rgba(249,248,247,.5);
+	border-left: #f8e7c6 10px solid;
+	border-right: #f8e7c6 10px solid;
+	margin-bottom: 0;
+}
+
+.details{
+	font-family: raleway;
+	background-color:rgba(249,248,247,.5);
+	margin-top: 0;
+	padding-top:1rem;
+	padding-bottom: 1rem;
+	border-left: #f8e7c6 10px solid;
+	
+}
+
+.details h4{
+	font-family: raleway;
+	padding-left: 2rem;
+}
+
+.details p{
+	font-family:raleway;
+	padding-left:2rem;
+}
+
+.details ul li{
+	font-family: raleway;
+	padding-left: 1rem;
+	margin-left: 2rem;
+}
+
+.info{
+	border-right: #f8e7c6 10px solid;
+	font-family: raleway;
+	background-color:rgba(249,248,247,.5);
+	margin-top: 0;
+	padding-top:1rem;
+	padding-bottom: 28.7rem;
+	padding-left: 3rem;
+}
+
+.info h4{
+	font-family: raleway;
+	background-color: #6a0d37;
+	color: white;
+	text-align: center;
+	margin-right: 8rem;
+	padding:.5rem;
+}
+
+
+
+
+/* Small Page Content for Content Page */
+
+
+
+
+@media only and screen (max-width: 700px){
+	.hero-3{
+		font-size: 60px;
+		padding: 700px 0 0 0;
+		height: 600px;
+		padding: 20px 0 0 0;
+		background-size: cover;
+		color: #265B7F;
+		background-image: url(../img/hall.jpg);
+	}
+
+	.hero-3 h2{
+		font-family: raleway;
+		color: white;
+		background-color: rgba(0,0,0,.5);
+		text-align: center;
+		margin-top: 32rem;
+	}
+
+	.bed img{
+		padding: 1rem;
+		background-color: rgba(249,248,247, .5);
+		border-right: #f8e7c6 10px solid;
+	}
+
+	.snippet a{
+		background-color: rgba(249,248,247, .5);
+		border-left-color: #f8e7c6;
+		border-left-width:  10px;
+		border-left-style:  solid;
+	}
+
+	.snippet-2{
+		background-color: rgba(249,248,247, .5);
+		border-left: #f8e7c6 10px solid;
+	}
+}
+
+
+
+
+/* Large Page Content for Content Page */
+
+
+
+
+.hero-3{
+	font-size: 60px;
+	padding: 700px 0 0 0;
+	height: 600px;
+	padding: 20px 0 0 0;
+	background-size: cover;
+	color: #265B7F;
+	background-image: url(../img/hall.jpg);
+}
+
+.hero-3 h2{
+	font-family: raleway;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	margin-top: 32rem;
+}
+
+.suites h3{
+	font-family: raleway;
+	padding-left: 3rem;
+	padding-top: 1rem;
+	background-color:rgba(249,248,247,.5);
+	border-left: #f8e7c6 10px solid;
+	border-right: #f8e7c6 10px solid;
+	margin-bottom: 0;
+}
+
+.bed img{
+	padding: 2rem;
+	background-color:rgba(249,248,247,.5);
+	border-left: #f8e7c6 10px solid;
+}
+
+.snippet{
+	padding: 2rem;
+	padding-top:7rem;
+	padding-bottom: 7.3rem;
+	background-color:rgba(249,248,247,.5);
+	border-right: #f8e7c6 10px solid;
+}
+
+.snippet a{
+	border-bottom: #6a0d37 3px solid;
+	font-family: raleway;
+	font-size: 2rem;
+	color:black;
+}
+
+.snippet:hover{
+	background-color: rgba(106, 13, 55, .3);
+}
+
+.snippet-2{
+	padding: 2rem;
+	padding-top:7rem;
+	padding-bottom: 8.9rem;
+	background-color:rgba(249,248,247,.5);
+	border-right: #f8e7c6 10px solid;
+}
+
+.snippet-2 a{
+	border-bottom: #6a0d37 3px solid;
+	font-family: raleway;
+	font-size: 2rem;
+	color:black;
+}
+
+
+.snippet-2:hover{
+	background-color: rgba(106, 13, 55, .3);
+}
+
+
+
+
+/* Small page Content for home page */
+
+
+
+@media only screen and (max-width: 700px){
+	.hero-4{
+		font-size: 60px;
+		padding: 200px 0 0 0;
+		height: 200px;
+		padding: 20px 0 0 0;
+		background-size: cover;
+		color: #265B7F;
+		background-image: url(../img/home.jpg);
+		}
+
+	.hero-4 h2{
+		font-family: raleway;
+		color: white;
+		background-color: rgba(0,0,0,.5);
+		text-align: center;
+		margin-top: 3rem;
+	}
+
+	.details-2{
+		font-family: raleway;
+		background-color:rgba(249,248,247,.5);
+		margin-top: 0;
+		padding:1rem;
+	}
+
+	.info-2{
+		font-family: raleway;
+		background-color:rgba(249,248,247,.5);
+		margin-top: 0;
+		padding-top:1rem;
+		padding-bottom: 8.5rem;
+		padding-left: 3rem;
+	}
+
+	.info-2 h4{
+		font-family: raleway;
+		background-color: #6a0d37;
+		color: white;
+		text-align: center;
+		margin-right: 8rem;
+		padding:.5rem;
+	}
+
+	.left{
+		background-image: url(../img/horse.jpg);
+		background-position: fixed;
+		height: 400px;
+		background-size: cover;
+		padding: 1rem;
+	}
+
+ 	.left h3{
+	 	font-family: raleway;
+	 	color: white;
+	 	background-color: rgba(106, 13, 55, .4);
+	 	margin-left: 3rem;
+	 	margin-right: 3rem;
+	 	margin-top: 5rem;
+	 	margin-bottom: 0;
+	 	padding-bottom: 0;
+	 	text-align: center;
+ 	}
+
+	.left p{
+		background-color: rgba(106, 13, 55, .4);
+		margin-right: 3rem;
+		margin-left: 3rem;
+		margin-top: 0;
+		margin-bottom: 0;
+		color: white;
+		padding: 1rem;
+		padding-top: 0;
+		font-size: 1rem;
+		text-align: center;
+	}
+
+ 	.left h4{
+	 	font-family: raleway;
+	 	color: white;
+	 	background-color: rgba(106, 13, 55, .4);
+	 	margin-right: 3rem;
+	 	margin-left: 3rem;
+	 	margin-bottom: 0;
+	 	padding-bottom: 1rem;
+	 	padding-top: 0;
+	 	text-align: center;
+ 	}
+
+ 	.right{
+		background-image: url(../img/act.jpg);
+		background-position: fixed;
+		height: 400px;
+		background-size: cover;
+		padding: 1rem;
+	}
+
+ 	.right h3{
+	 	font-family: raleway;
+	 	color: white;
+	 	background-color: rgba(106, 13, 55, .4);
+	 	margin-left: 3rem;
+	 	margin-right: 3rem;
+	 	margin-top: 15rem;
+	 	margin-bottom: 0;
+	 	padding-bottom: 0;
+	 	text-align: center;
+ 	}
+
+	.right p{
+		background-color: rgba(106, 13, 55, .4);
+		margin-right: 3rem;
+		margin-left: 3rem;
+		margin-top: 0;
+		margin-bottom: 0;
+		color: white;
+		padding: 1rem;
+		padding-top: 0;
+		font-size: 1rem;
+		text-align: center;
+	}
+
+ 	.right h4{
+	 	font-family: raleway;
+	 	color: white;
+	 	background-color: rgba(106, 13, 55, .4);
+	 	margin-right: 3rem;
+	 	margin-left: 3rem;
+	 	margin-bottom: 0;
+	 	padding-bottom: 1rem;
+	 	padding-top: 0;
+	 	text-align: center;
+ 	}
+
+	.dinner{
+		background-image: url(../img/food.jpg);
+		background-position: fixed;
+		height: 400px;
+		background-size: cover;
+		padding: 1rem;
+		background-color:rgba(249,248,247,.5);
+	}
+
+	.dinner h3{
+	 	font-family: raleway;
+	 	color: white;
+	 	background-color: rgba(106, 13, 55, .4);
+	 	margin-left: 3rem;
+	 	margin-right: 3rem;
+	 	margin-top: 15rem;
+	 	margin-bottom: 0;
+	 	padding-bottom: 0;
+	 	text-align: center;
+ 	}
+
+ 	.dinner p{
+		background-color: rgba(106, 13, 55, .4);
+		margin-right: 3rem;
+		margin-left: 3rem;
+		margin-top: 0;
+		margin-bottom: 0;
+		color: white;
+		padding: 1rem;
+		padding-top: 0;
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	.dinner h4{
+	 	font-family: raleway;
+	 	color: white;
+	 	background-color: rgba(106, 13, 55, .4);
+	 	margin-right: 3rem;
+	 	margin-left: 3rem;
+	 	margin-bottom: 0;
+	 	padding-bottom: 1rem;
+	 	padding-top: 0;
+	 	text-align: center;
+ 	}
+}
+
+
+
+/* Large page content for home page */
+
+
+
+
+
+.hero-4{
+	font-size: 60px;
+	padding: 700px 0 0 0;
+	height: 600px;
+	padding: 20px 0 0 0;
+	background-size: cover;
+	color: #265B7F;
+	background-image: url(../img/home.jpg);
+}
+
+.hero-4 h2{
+	font-family: raleway;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	margin-top: 32rem;
+}
+
+.details-2{
+	font-family: raleway;
+	background-color:rgba(249,248,247,.5);
+	margin-top: 0;
+	padding:1rem;
+	border-right: #6a0d37 3px solid;
+	border-left: #f8e7c6 10px solid;	
+}
+
+.details-2 h4{
+	font-family: raleway;
+	padding-left: 2rem;
+}
+
+.details-2 p{
+	font-family:raleway;
+	padding-left:2rem;
+}
+
+.details-2 ul li{
+	font-family: raleway;
+	padding-left: 1rem;
+	margin-left: 2rem;
+}
+
+.info-2{
+	border-right: #f8e7c6 10px solid;
+	font-family: raleway;
+	background-color:rgba(249,248,247,.5);
+	margin-top: 0;
+	padding-top:1rem;
+	padding-bottom: 8.5rem;
+	padding-left: 3rem;
+}
+
+.info-2 h4{
+	font-family: raleway;
+	background-color: #6a0d37;
+	color: white;
+	text-align: center;
+	margin-right: 8rem;
+	padding:.5rem;
+}
+
+.left{
+	background-image: url(../img/horse.jpg);
+	background-position: fixed;
+	height: 400px;
+	background-size: cover;
+	padding: 1rem;
+}
+
+.left h3{
+ 	font-family: montserrat;
+ 	color: white;
+ 	background-color: rgba(106, 13, 55, .4);
+ 	margin-left: 3rem;
+ 	margin-right: 3rem;
+ 	margin-top: 15rem;
+ 	margin-bottom: 0;
+ 	padding-bottom: 0;
+ 	text-align: center;
+}
+
+.left p{
+	background-color: rgba(106, 13, 55, .4);
+	margin-right: 3rem;
+	margin-left: 3rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	padding: 1rem;
+	padding-top: 0;
+	font-size: 1rem;
+	text-align: center;
+}
+
+ .left h4{
+ 	font-family: raleway;
+ 	color: white;
+ 	background-color: rgba(106, 13, 55, .4);
+ 	margin-right: 3rem;
+ 	margin-left: 3rem;
+ 	margin-bottom: 0;
+ 	padding-bottom: 1rem;
+ 	padding-top: 0;
+ 	text-align: center;
+}
+
+.right{
+	background-image: url(../img/act.jpg);
+	background-position: fixed;
+	height: 400px;
+	background-size: cover;
+	padding: 1rem;
+}
+
+.right h3{
+ 	font-family: montserrat;
+ 	color: white;
+ 	background-color: rgba(106, 13, 55, .4);
+ 	margin-left: 3rem;
+ 	margin-right: 3rem;
+ 	margin-top: 15rem;
+ 	margin-bottom: 0;
+ 	padding-bottom: 0;
+ 	text-align: center;
+}
+
+.right p{
+	background-color: rgba(106, 13, 55, .4);
+	margin-right: 3rem;
+	margin-left: 3rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	padding: 1rem;
+	padding-top: 0;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.right h4{
+ 	font-family: raleway;
+ 	color: white;
+ 	background-color: rgba(106, 13, 55, .4);
+ 	margin-right: 3rem;
+ 	margin-left: 3rem;
+ 	margin-bottom: 0;
+ 	padding-bottom: 1rem;
+ 	padding-top: 0;
+ 	text-align: center;
+}
+
+.dinner{
+	background-image: url(../img/food.jpg);
+	background-position: fixed;
+	height: 400px;
+	background-size: cover;
+	padding: 1rem;
+	background-color:rgba(249,248,247,.5);
+}
+
+.dinner h3{
+ 	font-family: montserrat;
+ 	color: white;
+ 	background-color: rgba(106, 13, 55, .4);
+ 	margin-left: 3rem;
+ 	margin-right: 3rem;
+ 	margin-top: 15rem;
+ 	margin-bottom: 0;
+ 	padding-bottom: 0;
+ 	text-align: center;
+}
+
+.dinner p{
+	background-color: rgba(106, 13, 55, .4);
+	margin-right: 3rem;
+	margin-left: 3rem;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	padding: 1rem;
+	padding-top: 0;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.dinner h4{
+ 	font-family: raleway;
+ 	color: white;
+ 	background-color: rgba(106, 13, 55, .4);
+ 	margin-right: 3rem;
+ 	margin-left: 3rem;
+ 	margin-bottom: 0;
+ 	padding-bottom: 1rem;
+ 	padding-top: 0;
+ 	text-align: center;
+}
+
